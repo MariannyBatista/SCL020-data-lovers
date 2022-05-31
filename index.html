@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Runeterra side</title>
+  <link rel="icon" href="fotos/logololicon.png">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>  
+  <!--PRIMERA SECCION-->
+  <section class="pag1" id="pag1">
+    <header>
+      <a href="https://www.riotgames.com/es"><img src="fotos/logoriot.png" alt="lol" class="logoSearch1"></a>
+      <a href="https://www.leagueoflegends.com/es-mx/"><img src="fotos/logololtiny.png" alt="lol" class="logoSearch2"></a>
+    </header>
+    <div class="inicio">
+      <img src="fotos/logolol.png" id="logo">
+      <p class="foundChampText">Encuentra tu campeón ideal</p>
+      <input type="button" id="boton1" class="botones" value="Empezar">
+    </div>
+  </section>
+
+  <!--SEGUNDA SECCION-->
+  <section id="pag2" class="secondPage">
+    <p class="texto">
+    League of Legends es un juego de estrategia por equipos en el que dos equipos de cinco campeones se enfrentan para ver quién destruye antes la base del otro. Elige de entre un elenco de 149 campeones para realizar jugadas épicas, asesinar rivales y derribar torretas para alzarte con la victoria.
+    </p>
+    <p class="find">Encuentra a tu</p>
+    <p class="CAMPEONTEXT">CAMPEÓN</p>
+    <p id="parrafo2">Busca el campeón que más se amolde a tus gustos y dominalo en la grieta</p>
+    <!--BOTONES DE FILTRADO--> 
+    <nav id="filterButtons">
+      <ul>
+        <li><a id="all" href="#">TODOS</a></li>
+        <li><a>ROL</a>
+          <ul>
+            <li><a id="assassin" href="#" >Asesinos</a></li>
+            <li><a id="fighter" href="#" >Luchadores</a></li>
+            <li><a id="mage" href="#" >Magos</a></li>
+            <li><a id="marksman" href="#" >Tiradores</a></li>
+            <li><a id="support" href="#" >Soportes</a></li>
+            <li><a id="tank" href="#" >Tanques</a></li>
+          </ul>
+        </li>
+        <li><a>DIFICULTAD</a>
+          <ul>
+            <li><a id="ascendente" href="#">Ascendente</a></li>
+            <li><a id="descendente" href="#">Descendente</a></li>
+          </ul>
+          </li>
+      </ul>
+    </nav>
+  </section>
+
+  <section>
+    <div class="container-champions" id = "champions"></div>
+  </section>
+  
+<footer>
+  <a href="https://www.mobafire.com/"><img src="fotos/poro.png" class="logoPoro"></a>
+  <a href="https://www.instagram.com/leagueoflegends/?hl=es"><img src="fotos/logoIG.png" class="logoREDES"></a>
+  <a href="https://twitter.com/leagueoflegends"><img src="fotos/logoTWIT.png" class="logoREDES"></a>
+  <p class="finalText">©2022 Riot Games,Inc. Todos los derechos reservados.Riot Games, League of Legends y PvP.net son marcas comerciales,marcas de servicio o marcas registradas de Riot Games.Inc</p>
+</footer>
+
+  <script src="main.js" type="module"></script>
+</body>
+</html>
