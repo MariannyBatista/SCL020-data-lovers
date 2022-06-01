@@ -1,12 +1,13 @@
 //DEFINICION DEL FILTRADO EN VISTA DE UN HTML
 export function renderChampion(champion) {
+  //html
   return `<div class="card">
             <img src=${champion.splash}>
             <div class="decoration">
               <p class="name">${champion.name}</p> 
               <p class="title">${champion.title}</p>
               <p class="tags">${champion.tags}</p>
-              <p class="info">DIFICULTAD: ${champion.info.difficulty}</p>
+              <p class="info">DIFFICULTY: ${champion.info.difficulty}</p>
             </div>
         </div>`;
 }
@@ -76,14 +77,16 @@ export const filterTanks = (allData) => {
 export const infoSort = (allData, infoSortSelect) => {
   if (infoSortSelect === "sortA") {
     let sortInfoA = allData.sort((a, b) => {
-      if (a.info.difficulty < b.info.difficulty) return -1;
-      return 1;
+      return a.info.difficulty < b.info.difficulty ? -1 : 1;
+      // if (a.info.difficulty < b.info.difficulty) return -1;
+      //return 1;
     });
     return sortInfoA;
   } else if (infoSortSelect === "sortB") {
     let sortInfoB = allData.sort((a, b) => {
-      if (a.info.difficulty < b.info.difficulty) return 1;
-      return -1;
+      return a.info.difficulty < b.info.difficulty ? 1 : -1;
+      // if (a.info.difficulty < b.info.difficulty) return 1;
+      //return -1;
     });
     return sortInfoB;
   }
