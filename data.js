@@ -1,10 +1,6 @@
-
-
-
-
 //DEFINICION DEL FILTRADO EN VISTA DE UN HTML
 export function renderChampion(champion) {
-  return`<div class="card">
+  return `<div class="card">
             <img src=${champion.splash}>
             <div class="decoration">
               <p class="name">${champion.name}</p> 
@@ -14,8 +10,6 @@ export function renderChampion(champion) {
             </div>
         </div>`;
 }
- 
-
 
 //RECORRIDO DE TODA LA DATA
 export function renderAllChampions(champions) {
@@ -23,22 +17,18 @@ export function renderAllChampions(champions) {
   champions.forEach((champion) => {
     allChampionsHtml += renderChampion(champion);
   });
-  
+
   return allChampionsHtml;
 }
-
-
 
 //FILTRADO DE ROLES POR CAMPEON//
 
 export const filterAssassins = (allData) => {
   let filtro = allData.filter((rol1) => {
-   return rol1.tags.includes("Assassin");
+    return rol1.tags.includes("Assassin");
   });
 
- return filtro;
-
-  
+  return filtro;
 };
 
 export const filterFighters = (allData) => {

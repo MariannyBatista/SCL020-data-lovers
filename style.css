@@ -375,4 +375,12 @@
     width: 31vw;
 }
 
+.container-champions{
+  background-color: rgb(11, 58, 74);
+  align-content: center;
+  width: 80vw;
+  height: 800vh;
+  overflow: auto;
+}
+
 }
