@@ -336,21 +336,21 @@
   .texto {
     min-height: 15vh;
     max-width: 90%;
-    font-size: 2.5vh;
+    font-size: 2vh;
   }
 
   .find {
     margin-top: 33%;
-    font-size: 5vh;
+    font-size: 2vh;
   }
 
   .CAMPEONTEXT {
-    font-size: 10vh;
+    font-size: 5vh;
   }
 
   #parrafo2 {
     height: 15vh;
-    font-size: 3vh;
+    font-size: 2vh;
   }
 
   #filterButtons ul {
@@ -376,7 +376,7 @@
   }
 
   .card .name {
-    font-size: 4vh;
+    font-size: 2vh;
   }
 
   .card img {
@@ -384,7 +384,7 @@
   }
 
   .card .title{
-  font-size: 2vh;
+  font-size: 1vh;
   }
 
 .container-champions{
