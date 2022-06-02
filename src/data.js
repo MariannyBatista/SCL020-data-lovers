@@ -5,7 +5,7 @@ export function renderChampion(champion) {
             <div class="decoration">
               <p class="name">${champion.name}</p> 
               <p class="title">${champion.title}</p>
-              <p class="tags">${champion.tags}</p>
+              <p class="tags">${champion.tags.join('  /  ')}</p>
               <p class="info">DIFICULTAD: ${champion.info.difficulty}</p>
             </div>
         </div>`;

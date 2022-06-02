@@ -42,3 +42,5 @@ También nos inspiramos en la página de League of Legends oficial para que fues
 //imagenes de la pagina de lol oficial
 
 ## 3. Objetivos de aprendizaje
+
+Runeterra Side fue creada con el uso de HTML (semántico), CSS (selectores, modelo de caja, Flexbox), Web APls (el uso de selectores, eventos y Manipulación dinámica de DOM), JavaScript (datos primitivos y no primitivos, Arrays y Objetos,  Variables, Condicionales, Funciones, Bucles, ECMAScript(import y export), Unit tests y el uso de identificadores descriptivos) y GitHub (instalación, control de versiones, creación de cuentas y repositorios).
